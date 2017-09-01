@@ -1,0 +1,159 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.main-search{
+		margin-top: 15px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.mega_menu ul{
+		display: none;
+	}
+	.header_topline{
+		
+	}
+	.wr-menu{
+		position: relative;
+		background: #fff;	
+		z-index: 99;
+	}
+	.main_menu li{
+		background: #333333;
+	}
+	.main_menu ul{
+		display: none;
+	}
+	#owlone {
+		
+		display: ;
+	}
+	#owltwo{
+		display: none;
+	}
+	.main_menu ul {
+		display: none;
+		background: #f2f2f2;
+		margin-top: 10px;
+		padding: 0;
+		background: #f4f4f4;
+	}
+	.main_menu .active{
+		width: 100%;
+	}
+	.main_menu ul li {
+		position: relative;
+		width: 100%;
+		float: right;
+		padding: 0;
+		display: block;
+	}
+
+	.main_menu ul li a {
+		border-bottom: 1px solid rgba(175, 168, 246, 0.1);
+	}
+
+	.main_menu li {
+		display: block;
+	}
+
+	.main_menu a {
+		padding: 10px 20px;
+		color: #ffffff;
+	}
+
+	.main_menu a:hover {
+		background: #5b5b5b;
+	}
+
+	.main_menu .sub_menu {
+		position: relative;
+		float: right;
+		width: 100%;
+		display: block /*!important*/;
+		box-shadow: none;
+		background: none;
+		margin: 0;
+		padding: 0;
+		padding-left: 30px;
+	}
+
+	.main_menu .sub_menu li {
+		width: 100%;
+		border: 0;
+		padding: 0;
+	} 
+
+	.main_menu .sub_menu li a {
+		color: #ffffff;
+	}
+	.headhesive{
+		display: none;
+	}
+	.headhesive--stick{
+	display: none;
+    }
+    .main-search{
+    	display:none;
+    }
+    .portfolio_grid{
+    	display: ;
+    }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.contact_head{
+		display: none;
+	}
+
+	.soc_button{
+		display: none;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.logotype{
+		display: none;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.main_menu ul{
+		display: block !important;
+	}
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
